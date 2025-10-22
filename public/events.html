@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>sjsu.info – Events</title>
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body data-page="events">
+    <header>
+      <div class="container nav">
+        <div class="brand">sjsu.info</div>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="marketplace.html">Marketplace</a>
+          <a href="events.html">Events</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <h1>Events Around SJSU</h1>
+      <p class="muted">Campus happenings, career fairs, sports, and community events.</p>
+
+      <div class="events"></div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <small>© <span id="year"></span> sjsu.info • Demo site for domain sale</small>
+      </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </body>
+  </html>
+

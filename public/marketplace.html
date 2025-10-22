@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>sjsu.info – Marketplace</title>
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body data-page="marketplace">
+    <header>
+      <div class="container nav">
+        <div class="brand">sjsu.info</div>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="marketplace.html">Marketplace</a>
+          <a href="events.html">Events</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <h1>Student Marketplace</h1>
+      <p class="muted">A simple, Craigslist-like space to buy and sell items. (Demo)</p>
+
+      <div class="toolbar">
+        <input id="search" type="search" placeholder="Search items, e.g. 'desk'" aria-label="Search listings">
+        <select id="category" aria-label="Filter by category">
+          <option value="">All categories</option>
+          <option>Books</option>
+          <option>Electronics</option>
+          <option>Furniture</option>
+          <option>Clothing</option>
+          <option>Appliances</option>
+        </select>
+        <select id="condition" aria-label="Filter by condition">
+          <option value="">Any condition</option>
+          <option>Like New</option>
+          <option>Good</option>
+          <option>Used</option>
+        </select>
+        <button id="resetFilters" class="secondary" type="button">Reset</button>
+        <span style="flex:1"></span>
+        <button id="openPostItem" type="button">Post an Item</button>
+      </div>
+
+      <div class="listings"></div>
+    </main>
+
+    <!-- Modal (mock, non-functional submit) -->
+    <div id="modalBackdrop" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="postTitle">
+      <div class="modal">
+        <h3 id="postTitle">Post an Item (Demo)</h3>
+        <form>
+          <input type="text" placeholder="Title" required>
+          <div class="grid">
+            <input class="span-6" type="number" min="0" step="1" placeholder="Price (USD)" required>
+            <select class="span-6" required>
+              <option value="">Category</option>
+              <option>Books</option>
+              <option>Electronics</option>
+              <option>Furniture</option>
+              <option>Clothing</option>
+              <option>Appliances</option>
+            </select>
+          </div>
+          <div class="grid">
+            <select class="span-6" required>
+              <option value="">Condition</option>
+              <option>Like New</option>
+              <option>Good</option>
+              <option>Used</option>
+            </select>
+            <input class="span-6" type="text" placeholder="Location (e.g., Downtown SJ)">
+          </div>
+          <textarea rows="4" placeholder="Description"></textarea>
+          <div class="actions">
+            <button id="cancelModal" type="button" class="secondary">Cancel</button>
+            <button type="button">Submit (Mock)</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <small>© <span id="year"></span> sjsu.info • Demo site for domain sale</small>
+      </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </body>
+  </html>
+

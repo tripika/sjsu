@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "title": "Physics 2A Textbook",
+    "category": "Books",
+    "condition": "Good",
+    "price": 35,
+    "location": "Near MLK Library",
+    "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=1200&auto=format&fit=crop"
+  },
+  {
+    "id": 2,
+    "title": "IKEA Desk (Linnmon)",
+    "category": "Furniture",
+    "condition": "Used",
+    "price": 45,
+    "location": "Downtown SJ",
+    "image": "https://images.unsplash.com/photo-1540574163026-643ea20ade25?q=80&w=1200&auto=format&fit=crop"
+  },
+  {
+    "id": 3,
+    "title": "Graphing Calculator TI-84",
+    "category": "Electronics",
+    "condition": "Like New",
+    "price": 60,
+    "location": "Spartan Village",
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=1200&auto=format&fit=crop"
+  },
+  {
+    "id": 4,
+    "title": "SJSU Hoodie (M)",
+    "category": "Clothing",
+    "condition": "Good",
+    "price": 20,
+    "location": "On Campus",
+    "image": "https://images.unsplash.com/photo-1516826957135-700dedea698c?q=80&w=1200&auto=format&fit=crop"
+  },
+  {
+    "id": 5,
+    "title": "Mini Fridge",
+    "category": "Appliances",
+    "condition": "Used",
+    "price": 75,
+    "location": "Japantown",
+    "image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?q=80&w=1200&auto=format&fit=crop"
+  }
+]
+

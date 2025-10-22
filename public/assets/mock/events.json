@@ -1,0 +1,43 @@
+[
+  {
+    "id": 101,
+    "title": "SJSU Career Fair (Tech)",
+    "type": "Career",
+    "date": "2025-11-05",
+    "time": "10:00 AM",
+    "location": "Student Union Ballroom",
+    "description": "Meet local employers and recruiters hiring interns and new grads.",
+    "link": "https://www.sjsu.edu/careercenter/"
+  },
+  {
+    "id": 102,
+    "title": "Spartan Football vs. Fresno State",
+    "type": "Sports",
+    "date": "2025-11-12",
+    "time": "7:00 PM",
+    "location": "CEFCU Stadium",
+    "description": "Cheer on the Spartans under the lights!",
+    "link": "https://sjsuspartans.com/"
+  },
+  {
+    "id": 103,
+    "title": "Downtown SJ Night Market",
+    "type": "Community",
+    "date": "2025-11-20",
+    "time": "6:00 PM",
+    "location": "San Pedro Square",
+    "description": "Local vendors, food trucks, and live music in the heart of downtown.",
+    "link": "https://www.sjdowntown.com/"
+  },
+  {
+    "id": 104,
+    "title": "International Students Meetup",
+    "type": "Student Life",
+    "date": "2025-11-08",
+    "time": "3:00 PM",
+    "location": "MLK Library Room 225",
+    "description": "Connect with fellow international students and share resources.",
+    "link": "https://www.sjsu.edu/isss/"
+  }
+]
+
