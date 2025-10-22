@@ -44,5 +44,140 @@
     "location": "Japantown",
     "image": "https://images.unsplash.com/photo-1546868871-7041f2a55e12?q=80&w=1200&auto=format&fit=crop"
   }
+  ,
+  {
+    "id": 6,
+    "title": "Road Bike (M)",
+    "category": "Electronics",
+    "condition": "Used",
+    "price": 180,
+    "location": "East San José",
+    "image": "https://images.unsplash.com/photo-1518655048521-f130df041f66?q=80&w=1600&auto=format&fit=crop"
+  },
+  {
+    "id": 7,
+    "title": "27\" Monitor (1080p)",
+    "category": "Electronics",
+    "condition": "Good",
+    "price": 85,
+    "location": "Near SJSU Student Union",
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?q=80&w=1600&auto=format&fit=crop"
+  },
+  {
+    "id": 8,
+    "title": "Laptop Stand + Keyboard Combo",
+    "category": "Electronics",
+    "condition": "Like New",
+    "price": 30,
+    "location": "Downtown SJ",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1600&auto=format&fit=crop"
+  },
+  {
+    "id": 9,
+    "title": "Small Couch (2-Seater)",
+    "category": "Furniture",
+    "condition": "Used",
+    "price": 120,
+    "location": "Willow Glen",
+    "image": "https://images.unsplash.com/photo-1484101403633-562f891dc89a?q=80&w=1600&auto=format&fit=crop"
+  },
+  {
+    "id": 10,
+    "title": "Microwave (0.9 cu ft)",
+    "category": "Appliances",
+    "condition": "Good",
+    "price": 35,
+    "location": "Spartan Village",
+    "image": "https://images.unsplash.com/photo-1556912988-c3d12ff49a2f?q=80&w=1600&auto=format&fit=crop"
+  },
+  {
+    "id": 11,
+    "title": "Desk Lamp w/ USB",
+    "category": "Electronics",
+    "condition": "Like New",
+    "price": 18,
+    "location": "Japantown",
+    "image": "https://images.unsplash.com/photo-1493707553966-283afac8c602?q=80&w=1600&auto=format&fit=crop"
+  },
+  {
+    "id": 12,
+    "title": "Area Rug (5x7)",
+    "category": "Furniture",
+    "condition": "Good",
+    "price": 40,
+    "location": "Rose Garden",
+    "image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=1600&auto=format&fit=crop"
+  },
+  {
+    "id": 13,
+    "title": "Backpack (Water-resistant)",
+    "category": "Clothing",
+    "condition": "Like New",
+    "price": 25,
+    "location": "On Campus",
+    "image": "https://images.unsplash.com/photo-1520975922220-6cdd3aa1b6ec?q=80&w=1600&auto=format&fit=crop"
+  },
+  {
+    "id": 14,
+    "title": "Printer (Canon Pixma)",
+    "category": "Electronics",
+    "condition": "Used",
+    "price": 50,
+    "location": "Downtown SJ",
+    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?q=80&w=1600&auto=format&fit=crop"
+  },
+  {
+    "id": 15,
+    "title": "Dining Table (4 Chairs)",
+    "category": "Furniture",
+    "condition": "Good",
+    "price": 150,
+    "location": "North San José",
+    "image": "https://images.unsplash.com/photo-1524758631624-0e3fd6b0b6da?q=80&w=1600&auto=format&fit=crop"
+  },
+  {
+    "id": 16,
+    "title": "Textbook Bundle (Calc + CS)",
+    "category": "Books",
+    "condition": "Good",
+    "price": 50,
+    "location": "Campus Bookstore Area",
+    "image": "https://images.unsplash.com/photo-1516979187457-637abb4f9353?q=80&w=1600&auto=format&fit=crop"
+  },
+  {
+    "id": 17,
+    "title": "Standing Desk (Adjustable)",
+    "category": "Furniture",
+    "condition": "Like New",
+    "price": 120,
+    "location": "Downtown SJ",
+    "image": "https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=1600&auto=format&fit=crop"
+  },
+  {
+    "id": 18,
+    "title": "Air Fryer (3.7qt)",
+    "category": "Appliances",
+    "condition": "Like New",
+    "price": 45,
+    "location": "Spartan Keys",
+    "image": "https://images.unsplash.com/photo-1611255550542-c2f0bfe0f4a0?q=80&w=1600&auto=format&fit=crop"
+  },
+  {
+    "id": 19,
+    "title": "SJSU Hoodie (L)",
+    "category": "Clothing",
+    "condition": "Good",
+    "price": 18,
+    "location": "On Campus",
+    "image": "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?q=80&w=1600&auto=format&fit=crop"
+  },
+  {
+    "id": 20,
+    "title": "Noise-Canceling Headphones",
+    "category": "Electronics",
+    "condition": "Good",
+    "price": 90,
+    "location": "Near MLK Library",
+    "image": "https://images.unsplash.com/photo-1518444080546-07f2b0f5df00?q=80&w=1600&auto=format&fit=crop"
+  }
 ]
-

@@ -1,0 +1,7 @@
+# Canonical host
+https://www.sjsu.info/*  https://sjsu.info/:splat  301!
+http://sjsu.info/*       https://sjsu.info/:splat  301!
+
+# Tidy index
+/index.html  /  301
+

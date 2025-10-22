@@ -39,5 +39,105 @@
     "description": "Connect with fellow international students and share resources.",
     "link": "https://www.sjsu.edu/isss/"
   }
+  ,
+  {
+    "id": 105,
+    "title": "Hackathon: Build for Good",
+    "type": "Tech",
+    "date": "2025-11-22",
+    "time": "9:00 AM",
+    "location": "Student Union Ballroom",
+    "description": "24-hour hackathon focused on community impact projects.",
+    "link": "https://devpost.com/"
+  },
+  {
+    "id": 106,
+    "title": "Downtown Art Walk",
+    "type": "Community",
+    "date": "2025-12-05",
+    "time": "5:00 PM",
+    "location": "SoFA District",
+    "description": "Local artists, galleries, and live performances across the SoFA district.",
+    "link": "https://sjdowntown.com/"
+  },
+  {
+    "id": 107,
+    "title": "Resume + LinkedIn Workshop",
+    "type": "Career",
+    "date": "2025-11-18",
+    "time": "1:00 PM",
+    "location": "Career Center",
+    "description": "Hands-on session to refine your resume and online presence.",
+    "link": "https://www.sjsu.edu/careercenter/"
+  },
+  {
+    "id": 108,
+    "title": "SJSU Men’s Basketball vs. Nevada",
+    "type": "Sports",
+    "date": "2025-12-12",
+    "time": "7:30 PM",
+    "location": "Provident Credit Union Event Center",
+    "description": "Catch the Spartans at home in a conference matchup.",
+    "link": "https://sjsuspartans.com/"
+  },
+  {
+    "id": 109,
+    "title": "Holiday Night Market",
+    "type": "Community",
+    "date": "2025-12-15",
+    "time": "6:00 PM",
+    "location": "San Pedro Square",
+    "description": "Food trucks, local makers, and festive live music downtown.",
+    "link": "https://www.sjdowntown.com/"
+  },
+  {
+    "id": 110,
+    "title": "Volunteer Day: Guadalupe River Park",
+    "type": "Service",
+    "date": "2025-11-30",
+    "time": "9:00 AM",
+    "location": "Guadalupe River Park",
+    "description": "Join other students to help clean and restore the park.",
+    "link": "https://www.grpg.org/"
+  },
+  {
+    "id": 111,
+    "title": "Library Late Night Study",
+    "type": "Academics",
+    "date": "2025-12-08",
+    "time": "8:00 PM",
+    "location": "MLK Library",
+    "description": "Extended hours, quiet floors, and free snacks during finals week.",
+    "link": "https://www.sjpl.org/locations/king"
+  },
+  {
+    "id": 112,
+    "title": "Startup Pitch Night",
+    "type": "Entrepreneurship",
+    "date": "2025-12-02",
+    "time": "6:00 PM",
+    "location": "SJSU Innovation Center",
+    "description": "Student founders pitch ideas to mentors and local investors.",
+    "link": "https://www.eventbrite.com/"
+  },
+  {
+    "id": 113,
+    "title": "Winter Concert: Symphony",
+    "type": "Arts",
+    "date": "2025-12-10",
+    "time": "7:00 PM",
+    "location": "Music Concert Hall",
+    "description": "An evening of orchestral performances by SJSU students.",
+    "link": "https://www.sjsu.edu/music/"
+  },
+  {
+    "id": 114,
+    "title": "Club Fair Spring Preview",
+    "type": "Student Life",
+    "date": "2026-01-20",
+    "time": "12:00 PM",
+    "location": "7th Street Plaza",
+    "description": "Discover student organizations and find your community next term.",
+    "link": "https://sjsu.campuslabs.com/engage/"
+  }
 ]
-

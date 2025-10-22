@@ -1,30 +1,72 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>sjsu.info – Marketplace</title>
-    <link rel="stylesheet" href="assets/styles.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SJSU.INFO – Student Marketplace</title>
+    <meta name="description" content="Browse a demo student marketplace for SJSU.INFO. Mock listings for textbooks, furniture, electronics and more." />
+    <link rel="canonical" href="https://sjsu.info/marketplace.html" />
+    <meta property="og:title" content="SJSU.INFO – Student Marketplace" />
+    <meta property="og:description" content="Demo marketplace for SJSU students: books, furniture, electronics and more." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://sjsu.info/marketplace.html" />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1600&auto=format&fit=crop" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#0b5394" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = { theme: { extend: { colors: { brand: '#0b5394' } } } }
+    </script>
   </head>
-  <body data-page="marketplace">
-    <header>
-      <div class="container nav">
-        <div class="brand">sjsu.info</div>
-        <nav>
-          <a href="index.html">Home</a>
-          <a href="marketplace.html">Marketplace</a>
-          <a href="events.html">Events</a>
-        </nav>
+  <body class="min-h-screen bg-slate-50 text-slate-900" data-page="marketplace">
+    <header class="sticky top-0 z-50 border-b border-slate-200 bg-white/80 backdrop-blur">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="flex h-16 items-center justify-between">
+          <a href="index.html" class="font-semibold text-brand">SJSU.INFO</a>
+          <button class="js-menu-toggle inline-flex items-center rounded-md border border-slate-300 bg-white p-2 text-slate-700 hover:bg-slate-50 md:hidden" aria-label="Open menu" aria-controls="primary-nav" aria-expanded="false">
+            <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+          </button>
+          <nav id="primary-nav" class="hidden items-center gap-6 text-sm md:flex" aria-label="Primary">
+            <a class="hover:text-brand" href="index.html">Home</a>
+            <a class="hover:text-brand" href="marketplace.html">Marketplace</a>
+            <a class="hover:text-brand" href="events.html">Events</a>
+            <a class="hover:text-brand" href="parking.html">Parking</a>
+            <a class="hover:text-brand" href="international.html">International</a>
+            <a class="hover:text-brand" href="about.html">About</a>
+          </nav>
+        </div>
+        <div class="js-mobile-menu hidden border-t border-slate-200 bg-white md:hidden">
+          <nav class="grid gap-2 px-4 py-3 text-sm" aria-label="Mobile">
+            <a class="py-1 hover:text-brand" href="index.html">Home</a>
+            <a class="py-1 hover:text-brand" href="marketplace.html">Marketplace</a>
+            <a class="py-1 hover:text-brand" href="events.html">Events</a>
+            <a class="py-1 hover:text-brand" href="parking.html">Parking</a>
+            <a class="py-1 hover:text-brand" href="international.html">International</a>
+            <a class="py-1 hover:text-brand" href="about.html">About</a>
+          </nav>
+        </div>
       </div>
     </header>
+    <section class="relative overflow-hidden">
+      <div class="absolute inset-0 -z-10 bg-gradient-to-r from-sky-50 via-white to-indigo-50"></div>
+      <div class="mx-auto max-w-7xl px-2">
+        <div class="flex h-5 items-center justify-center gap-2 leading-none text-[12px] text-slate-700">
+          <span>Interested in buying this domain: sjsu.info?</span>
+          <a href="https://checkoutlink.godaddy.com/d10c6216-2638-436d-8c3b-32ab31fe798f" target="_blank" rel="noopener" class="text-brand font-medium underline underline-offset-2 whitespace-nowrap">Buy Now</a>
+        </div>
+      </div>
+    </section>
 
-    <main class="container">
-      <h1>Student Marketplace</h1>
-      <p class="muted">A simple, Craigslist-like space to buy and sell items. (Demo)</p>
+    <main class="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+      <div class="mb-6">
+        <h1 class="text-2xl font-bold">Student Marketplace</h1>
+        <p class="mt-1 text-slate-600">Browse and filter listings. Posting is a demo-only modal.</p>
+      </div>
 
-      <div class="toolbar">
-        <input id="search" type="search" placeholder="Search items, e.g. 'desk'" aria-label="Search listings">
-        <select id="category" aria-label="Filter by category">
+      <div class="mb-6 flex flex-wrap items-center gap-3">
+        <input id="search" type="search" placeholder="Search items, e.g. 'desk'" aria-label="Search listings" class="w-full max-w-xs rounded-md border border-slate-300 bg-white px-3 py-2 text-sm shadow-sm focus:border-brand focus:outline-none focus:ring-1 focus:ring-brand" />
+        <select id="category" aria-label="Filter by category" class="rounded-md border border-slate-300 bg-white px-3 py-2 text-sm shadow-sm focus:border-brand focus:outline-none focus:ring-1 focus:ring-brand">
           <option value="">All categories</option>
           <option>Books</option>
           <option>Electronics</option>
@@ -32,29 +74,35 @@
           <option>Clothing</option>
           <option>Appliances</option>
         </select>
-        <select id="condition" aria-label="Filter by condition">
+        <select id="condition" aria-label="Filter by condition" class="rounded-md border border-slate-300 bg-white px-3 py-2 text-sm shadow-sm focus:border-brand focus:outline-none focus:ring-1 focus:ring-brand">
           <option value="">Any condition</option>
           <option>Like New</option>
           <option>Good</option>
           <option>Used</option>
         </select>
-        <button id="resetFilters" class="secondary" type="button">Reset</button>
-        <span style="flex:1"></span>
-        <button id="openPostItem" type="button">Post an Item</button>
+        <button id="resetFilters" type="button" class="inline-flex items-center rounded-md border border-slate-300 bg-white px-3 py-2 text-sm shadow-sm hover:bg-slate-50">Reset</button>
+        <div class="grow"></div>
+        <button id="openPostItem" type="button" class="inline-flex items-center rounded-md bg-brand px-3 py-2 text-sm text-white shadow hover:bg-brand/90">
+          <svg class="mr-2 h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 5v14M5 12h14"/></svg>
+          Post an Item
+        </button>
       </div>
 
-      <div class="listings"></div>
+      <div class="listings grid gap-4 sm:grid-cols-2 lg:grid-cols-3"></div>
     </main>
 
-    <!-- Modal (mock, non-functional submit) -->
-    <div id="modalBackdrop" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="postTitle">
-      <div class="modal">
-        <h3 id="postTitle">Post an Item (Demo)</h3>
-        <form>
-          <input type="text" placeholder="Title" required>
-          <div class="grid">
-            <input class="span-6" type="number" min="0" step="1" placeholder="Price (USD)" required>
-            <select class="span-6" required>
+    <!-- Modal (mock) -->
+    <div id="modalBackdrop" class="fixed inset-0 z-50 hidden items-center justify-center bg-slate-900/50 p-4">
+      <div class="w-full max-w-lg rounded-xl border border-slate-200 bg-white p-5 shadow-xl">
+        <div class="mb-3 flex items-center justify-between">
+          <h3 id="postTitle" class="text-lg font-semibold">Post an Item (Demo)</h3>
+          <button id="cancelModal" class="rounded-md border border-slate-300 bg-white px-2 py-1 text-sm hover:bg-slate-50">Close</button>
+        </div>
+        <form class="grid gap-3">
+          <input type="text" placeholder="Title" required class="rounded-md border border-slate-300 px-3 py-2 text-sm" />
+          <div class="grid gap-3 sm:grid-cols-2">
+            <input type="number" min="0" step="1" placeholder="Price (USD)" required class="rounded-md border border-slate-300 px-3 py-2 text-sm" />
+            <select required class="rounded-md border border-slate-300 px-3 py-2 text-sm">
               <option value="">Category</option>
               <option>Books</option>
               <option>Electronics</option>
@@ -63,32 +111,49 @@
               <option>Appliances</option>
             </select>
           </div>
-          <div class="grid">
-            <select class="span-6" required>
+          <div class="grid gap-3 sm:grid-cols-2">
+            <select required class="rounded-md border border-slate-300 px-3 py-2 text-sm">
               <option value="">Condition</option>
               <option>Like New</option>
               <option>Good</option>
               <option>Used</option>
             </select>
-            <input class="span-6" type="text" placeholder="Location (e.g., Downtown SJ)">
+            <input type="text" placeholder="Location (e.g., Downtown SJ)" class="rounded-md border border-slate-300 px-3 py-2 text-sm" />
           </div>
-          <textarea rows="4" placeholder="Description"></textarea>
-          <div class="actions">
-            <button id="cancelModal" type="button" class="secondary">Cancel</button>
-            <button type="button">Submit (Mock)</button>
+          <textarea rows="4" placeholder="Description" class="rounded-md border border-slate-300 px-3 py-2 text-sm"></textarea>
+          <div class="flex justify-end gap-2">
+            <button type="button" class="rounded-md border border-slate-300 bg-white px-3 py-2 text-sm hover:bg-slate-50">Submit (Mock)</button>
           </div>
         </form>
       </div>
     </div>
 
-    <footer>
-      <div class="container">
-        <small>© <span id="year"></span> sjsu.info • Demo site for domain sale</small>
+    <footer class="border-t border-slate-200 bg-white">
+      <div class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+        <div class="grid gap-6 md:grid-cols-3">
+          <div class="md:col-span-2">
+            <h4 class="text-lg font-semibold text-slate-900">SJSU.INFO</h4>
+            <p class="mt-2 max-w-2xl text-slate-600">This is a demo project showcasing how this domain could be used to provide helpful information for students around San Jose State University. Not affiliated with or endorsed by SJSU.</p>
+            <p class="mt-3 text-sm text-slate-500">© <span id="year"></span> SJSU.INFO • Demo/mock content.</p>
+          </div>
+          <div class="flex flex-col items-start gap-2 md:items-end md:justify-end">
+            <p class="text-sm text-slate-600">If you're interested:</p>
+            <div class="flex flex-wrap items-center gap-3">
+              <a
+                href="https://checkoutlink.godaddy.com/d10c6216-2638-436d-8c3b-32ab31fe798f"
+                target="_blank" rel="noopener"
+                class="inline-flex items-center rounded-md bg-brand px-5 py-3 text-white shadow hover:bg-brand/90">
+                Buy Now
+              </a>
+              <span class="text-sm text-slate-500">or contact us at</span>
+              <a href="mailto:domain@sjsu.info" class="text-sm text-brand hover:underline">domain@sjsu.info</a>
+            </div>
+          </div>
+        </div>
       </div>
     </footer>
 
-    <script src="assets/script.js"></script>
+    <script src="assets/script.js" defer></script>
     <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
   </body>
   </html>
-
